@@ -1,0 +1,8 @@
+
+javascript was invented in 1995 the same year when java was invented and it was named after the language java+sricpt but the difference between them is same as difference between a *car & carpet* ,so both are independent nothing is same .
+this is for better understanding -
+https://youtu.be/7z-VseyACaE
+
+and you can search more about it's history and versions.
+
+*you don't have much worry about js versions ES6 is enough*

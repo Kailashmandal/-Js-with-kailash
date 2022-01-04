@@ -1,0 +1,8 @@
+Before start learning JavaScript basics we have to understand that what actually is java script and what type of things we can do or build with js(javascript).
+
+So Please go through this video about what is Javascript and it's application in different fields and please ask doubts after watching it.
+I hope you will find this useful.
+
+lecture 2:  https://youtu.be/dlfrWbYk1v0
+
+*don't panic about any term that you don't understand just ask in group or atleast search on YouTube*

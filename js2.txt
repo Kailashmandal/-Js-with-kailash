@@ -1,0 +1,28 @@
+Today we will understand how we can run javascript code .(indirectly what softwares are required for running js code )
+
+There are couple of methods for running js code locally on your system,but two of them mainly used are -
+
+1. Running code in browser with HTML code like google crome, firefox, microsoft edge, Opera, Apple's Safari etc.
+
+2. Running code with of help js- engines by downloading them . We have nodejs , Deno  runtime of js application/code.
+This is same like we have complier for c/c++ and jvm for java , python3 or python2 for python code.
+
+If you're wondering how a browser can run js code ,then the answer is they have their own built-in engines for js .fun fact nodejs runtime is built on the top of v8 js engine which is used by crome .(you can also search more about js history ) Hope you will find this session good.
+
+Dropping some link for better understanding .👇
+
+1. Running js in browser and js engines-
+https://youtu.be/BMKWdLX9w3M
+
+2. what is nodejs ? 
+https://youtu.be/_RSL3S3Anxg
+
+software needed are -
+1. browser or nodejs
+2. notepad or vscode
+
+I prefer use * nodejs* as local js runtime and *vscode* for enhancing productivity in programming. But it's upto you what you want to choose .👀
+
+you can ask doubts after watching videos or search on google.
+
+
