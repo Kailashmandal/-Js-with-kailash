@@ -33,6 +33,15 @@ let percentage = 99;
 percentage=74; // these can also be modified 
 
 const myname="kailash";
-myname="mandal"; // these can not be modified
+// myname="mandal"; // these can not be modified
 
 console.log(myname); // will give an error
+
+
+var c=10
+// let c=55; //cannot declare again
+{
+    let c=55; // can decalre here
+    // var c=20; not allowed
+}
+console.log(c); // outside block
