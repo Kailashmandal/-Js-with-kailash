@@ -1,0 +1,25 @@
+<!-- how to select elements in html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting elements in js </title>
+</head>
+<body>
+    <div>
+        <h1 class="title" id="title">Learn js with me .</h1>
+        <p id="paragraph">this is JS</p>
+    </div>
+
+    <script>
+        var text = document.getElementById('title').innerHTML;
+        // we can also get elements by tag name , class name etc. 
+        console.log(text);
+      
+        // Js can also change the values of hmtl page
+        var p=document.getElementById('paragraph').innerHTML ="hye this is kailash"
+    </script>
+</body>
+</html>
