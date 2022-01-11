@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation2</title>
+</head>
+
+<body>
+    <input type="text" id="text1 " >
+    <input type="text" id="text2">
+    <button onclick="fun()" id="btn1">click me </button>
+
+
+
+    <script type="text/javascript">
+
+        function  fun( ) {
+            /**
+             *     document.querySelector( ".className  or  #idName   or  tagName") will select the first element of
+             * t    the provided argument .BUT
+             * 
+             * 
+             *       document.querySelectorAll(".className or  #idName or tagName") will select all elements of the 
+             *        provided arguments and can target all of those.
+             * 
+             */
+            var str=document.querySelector('#text2').value ;   // targetting element of id  text2
+            alert("Value inside the text area " + str);
+        }
+    </script>
+</body>
+
+</html>

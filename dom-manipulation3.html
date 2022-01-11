@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation 3</title>
+</head>
+<body>
+
+<script type="text/javascript">
+     function fun( ){
+            var first=document.getElementById("rd1").value;
+            var second=document.getElementById("rd2").value;
+             if(rd1.checked==true){
+                 alert(first)
+             }else if(rd2.checked==true){
+                 alert(second)
+             }
+             else{
+                 alert("noting selected")
+             }
+     }
+    var user=" 😄  🎧"
+    console.log(user);
+     </script>
+    <input type="radio"  value="first value" name="grp1" id="rd1">first value</input><br>
+    <input type="radio"  value="second value" name="grp1" id="rd2">second value</input>
+    <br>
+    <button onclick="fun()">Click me</button>
+</body>
+</html>
