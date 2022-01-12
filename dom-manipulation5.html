@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-manipulation5</title>
+</head>
+<body>
+    <p>This is paragraph.</p>
+    <p>This is paragraph.</p>
+    <p>This is paragraph.</p>
+    <p>This is paragraph.</p>
+    <p>This is paragraph.</p>
+   <button onclick="changeStyle()">click me</button>
+
+    <script type="text/javascript">
+     function changeStyle( ) {
+
+        // getElementsByTagName returns an Array of html objects/tags  
+            var para=document.getElementsByTagName('p');
+        
+            // we can change the styling of each element by using for loop 
+            for(let i=0;i<para.length;i++){
+                // style attribute used to modify the styling of an Element when some event occurs
+               para[i].style.fontStyle="Italic";
+               para[i].style.color="green";
+            }
+     }
+    </script>
+</body>
+</html>
