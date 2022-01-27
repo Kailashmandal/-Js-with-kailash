@@ -1,0 +1,25 @@
+[
+    {
+        "_comment": "comment text goes here..." ,
+        "name" : "kailash",
+        "city" : "faridabad",
+        "contact" : 455
+    },
+    {
+        "name" : "rahul",
+        "city" : "faridabad",
+        "contact" : 4566
+    },
+    {
+        "_comment": "comment text goes here..." ,
+        "name" : "karan",
+        "city" : "delhi",
+        "contact" : 666
+    },
+    {
+        "_comment": "comment text goes here..." ,
+        "name" : "prahlad",
+        "city" : "dabua",
+        "contact" : 999
+    }
+]
